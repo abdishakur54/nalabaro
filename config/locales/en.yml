@@ -22,13 +22,13 @@ en:
       user:
         accepted_terms: "Terms and Conditions"
         email: Email
-        name: Name
-        password: Password
-        password_confirmation: Password Confirmation
+        name: magacaga
+        password: lambar Sireed
+        password_confirmation: Xaqiijinta Lambar Sireed
     errors:
       models:
         user:
-          confirmation: doesn't match Password
+          confirmation: lambar Sireed-ka lamaxaqiijin 
   administrator:
     site_settings:
       authentication:
@@ -65,15 +65,15 @@ en:
       subtitle: Customize Greenlight
       title: Site Settings
     flash:
-      approved: User has been successfully approved.
-      banned: User has been successfully banned.
+      approved: Isticmaalaha si guul leh ayaa loo oggolaaday.
+      banned: Isticmaalaha si guul leh ayaa loo mamnuucay.
       unbanned: User has been successfully unbanned.
       delete: User deleted successfully
       delete_fail: Failed to delete user
       demoted: User has been successfully demoted
       invite: Invite successfully sent to %{email}
       invite_email_verification: Emails must be enabled in order to use this method. Please contact your system administrator.
-      promoted: User has been successfully promoted
+      promoted: Isticmaalaha si guul leh ayaa loo dallacsiiyay
       registration_method_updated: Registration method successfully updated
       settings: Site Settings successfully changed
       unauthorized: You are not authorized to perform actions on this user
@@ -103,7 +103,7 @@ en:
         info: Set the colour that will be associated with the role
     title: Organization Settings
     users:
-      invite: Invite User
+      invite: Ku casuun isticmaale
       edit:
         title: Edit User Details
       settings:
@@ -116,18 +116,18 @@ en:
         unban: Unban User
       table:
         authenticator: Authenticator
-        created: Created
-        name: Name
+        created: La abuuray
+        name: Magaca
         not_found: No users match your search
         no_users: No users found
         role: Role
-        uid: User ID
-        username: Username
+        uid: AQoonsi
+        username: Adeegsade
       title: Manage Users
   add_to_google_calendar: "Add to Google Calendar"
-  bigbluebutton: BigBlueButton
-  bigbluebutton_exception: Oops, there was an error when starting the meeting!
-  cancel: Cancel
+  bigbluebutton: Nalabaro
+  bigbluebutton_exception: Oops, waxaa jiray qalad marka laga bilaabo kulanka!
+  cancel: KanoQo
   cookies:
     cookie_info: Cookies help us deliver our services. By using our services, you agree to our use of cookies.
     cookie_button: I Agree
@@ -141,90 +141,93 @@ en:
   docs: Documentation
   email: Email
   email_sent: Your %{email_type} email has been sent! (Please check your Spam folder if you haven't received it)
-  enter_your_name: Enter your name!
+  enter_your_name: kuqor Magacaga!
   errors:
-    bigbluebutton:
+    bigbluebutton: hotmuud uni
       help: Please make sure the proper steps have been taken. <a href="%{doc_link}">Learn more</a>
-      message: Invalid BigBlueButton Endpoint and Secret
-      title: Server Error
+      message: Khlad aya kajira danka  Endpoint and Secret
+      title: Server Error ayaa jirra
     internal:
-      message: Looks like something went wrong on our end.
+      message: Waxay umuuqataa inay wax qaldeen end.
       help: The error has been logged, we'll take a look!
     maintenance:
-      message: Sorry, we're down for maintenance.
+      message: WAXAAN KU MAQANNAHAY DACYACTIR 
       help: We'll be back soon!
     migration_error:
       contact_admin: If you are not an administrator, please contact one.
       continue: I'd like to stay using 1.0.
-      notice: >
-        Greenlight encountered a database migration error.<br>
-        This may be because you haven't updated to Greenlight 2.0.
+     
       upgrade: Show me how to upgrade to 2.0!
       version: We've released a new version of Greenlight, but your database isn't compatible.
     messages:
       blank: can't be blank
       too_short: is too short
-      invalid: is invalid
-      taken: has already been taken
-      accepted: must be accepted
+      invalid: waa mid aan shaqeynaynin
+      taken: mar hore ayaa la qaatay
+      accepted: waa in laguso  aqbalaa
       confirmation: doesn't match %{attribute}
       inclusion: is not included in the list
     no_provider:
+
+      message: Qofka macaamiisha ah ee aad siisay ma diiwan gishna
+      help: Fadlan la xiriir jaamacada Hirmuud si aad uga Qaypgasho NALABARo
+
       message: The site you are trying to access is not enabled
       help: Please contact your system administrator to setup Greenlight
+      master: 
     not_found:
-      message: Sorry! The page you are looking for does not exist.
-      help: Is it possible its been removed?
+      message: Waan ka xumahay! Bogga aad raadineyso ma jiro..
+      help: Suurtagal ma tahay in laga saaro?
       user_not_found:
-        help: Please contact an administrator.
-        message: Sorry, this user is not registered.
+        help: Fadlan Laxiriir Maamulka ..
+        message: Waan Kaxunnahay , Isticmaalahan Diiwanka Kumajiro.
       user_missing:
-        help: Please verify the URL and try again
-        message: The URL that you have entered is not valid.
-    title: Errors
+        help: Fadlan xaqiiji URL-ka oo iskuday markale.
+        message: UR-Lka aad soo gashey lama ansaxinayo.
+    title: Khaladaadka
     unauthorized:
-      message: You do not have access to this application
-      help: If you believe this is a mistake, please contact your system administrator.
-  expired_reset_token: Password reset link has expired!
+      message: Uma lihid xaq adeegsigaan
+      help: Haddii aad aaminsan tahay in u  khalad jiro , fadlan la xiriir maamulaha nidaamkaaga..
+  expired_reset_token: Isku xirka furaha lambarka sirta ah ayaa dhacay!
   features:
     title: Features
     rooms: Personalized Rooms
     recordings: Recording Management
     designs: Custom Designs
-    authentication: User Authentication
+    authentication: Xaqiijinta Adeegsiga
   footer:
     powered_by: Powered by %{href}.
   forgot_password:
     subtitle: Forgot Password
     email: Email
-    submit: Submit
-  go_back: Go back
-  greenlight: Greenlight
+    submit: Gudbi
+  go_back: Gadaal unoqo
+  greenlight: NalaBaro
   header:
-    all_recordings: All Recordings
+    all_recordings: Dhamaan Diiwanada
     dropdown:
       account_settings: Organization
-      help: Need help?
+      help: Ma Caawinaad Ayad Ubaahantahay?
       home: Home
       settings: Profile
-      signout: Sign out
-  home_room: Home Room
+      signout: KaBax
+  home_room: Home 
   info_update_success: Information successfully updated.
   invalid_user: Login failed due to user not found. Are you sure the email account is correct?
-  invalid_credentials: Login failed due to invalid credentials. Are you sure you entered them correctly?
+  invalid_credentials: Login failed due to invalid cre
   invalid_login_method: Login failed due to account mismatch. You need to log in with omniauth.
-  invite_message: "To invite someone to the meeting, send them this link:"
+  invite_message: "Si aad ugu martiqaado qof kulanka, u soo dir xiriirintan :"
   javascript:
     room:
       mailer:
-        subject: 'has invited you to view a recording.'
+        subject: 'ayaa kugu casuumay inaad daawato duubitaan.'
         body: 'To view the recording, follow the link below:'
-        autogenerated: 'This e-mail is auto-generated by BigBlueButton.'
-        footer: 'BigBlueButton is an open source web conferencing system. For more information on BigBlueButton, see https://bigbluebutton.org/.'
+        autogenerated: 'E-maylkan waxaa si toos ah u soo saarey .'
+        footer: 'NALABARO Wa shabakadda lagu abaabulo Macluumaad dheeraad ah , see https://nalabaro.com/.'
   landing:
-    about: "%{href} is a simple front-end for your BigBlueButton open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link."
-    welcome: Welcome to BigBlueButton.
-    video: Watch our tutorial on using Greenlight
+    about: "%{href} , waxay kuu saamaxaysaa inaad lawadagto Ardaydadad Ama Kooxddada , Waad abuuri kartaa qolal adiga kuu gaar ah si aad u martigaliso fadhiyada, ama ku Biirto kuwa kale Adiga oo  Adeegsanaya Xiriiriye Gaaban Iyo Habboon."
+    welcome: KUSO DHAWAADA JAAMACADA HORMUUD.
+    video: wixii caawimaaad ah 
     upgrade: Show me how to upgrade to 2.0!
     version: We've released a new version of Greenlight, but your database isn't compatible.
   language_default: Default (browser language)
